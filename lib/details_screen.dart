@@ -161,7 +161,8 @@ class _DetailsScreenState extends State<DetailsScreen> {
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 32.0),
             child: RichReadMoreText.fromString(
-              text: 'A cappuccino is an approximately 150 ml (5 oz) beverage, with 25 ml of espresso coffee and 85ml of fresh milk the ',
+              text: 'A cappuccino is an approximately 150 ml (5 oz) beverage, with 25 ml of espresso coffee and 85ml of fresh milk the'
+                  ',A cappuccino is an approximately 150 ml (5 oz) beverage, with 25 ml of espresso coffee and 85ml of fresh milk the ',
               textStyle: TextStyle(color: Color.fromRGBO(155, 155, 155, 1 )),
               settings: LengthModeSettings(
                 trimLength: 100,
