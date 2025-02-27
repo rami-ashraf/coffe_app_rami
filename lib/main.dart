@@ -2,6 +2,8 @@ import 'package:coffe_app_rami/Login_screen.dart';
 import 'package:coffe_app_rami/details_screen.dart';
 import 'package:flutter/material.dart';
 
+import 'home_screen.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -15,7 +17,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      home: DetailsScreen(),
+      home: HomeScreen(),
 
     );
   }
