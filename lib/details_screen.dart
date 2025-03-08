@@ -345,7 +345,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                           SizedBox(height: 8,),
           
                           //price value
-                          Text(isL==true? "\$10.99":isM==true? "\$7.49":"\$4.53",
+                          Text(isL ==true? "\$10.99":isM==true? "\$7.49":"\$4.53",
                           style: TextStyle(
                             fontSize: 18,
                             fontWeight: FontWeight.w600,
